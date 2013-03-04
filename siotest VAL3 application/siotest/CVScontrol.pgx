@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<programList xmlns="ProgramNameSpace" >
+  <program name="CVScontrol" public="false" >
+    <description />
+    <paramSection/>
+    <localSection/>
+    <source>
+      <code>begin
+  nVersion=1.1
+  put("The current version is:")
+  putln(nVersion)
+end
+
+      </code>
+    </source>
+  </program>
+</programList>

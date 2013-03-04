@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<programList xmlns="ProgramNameSpace" >
+  <program name="commadeal" public="false" >
+    <description />
+    <paramSection/>
+    <localSection/>
+    <source>
+      <code>begin
+  if strdatrev=="(Ready)"
+    enablePower()
+    movej(jReady,tTon,mNomSpeed)
+    movej(pSafe,tTon,mNomSpeed)
+    waitEndMove()
+    delay(2)
+    strdatrev=""
+    call showpoint()
+    call datasend()
+  endIf
+end
+
+      </code>
+    </source>
+  </program>
+</programList>

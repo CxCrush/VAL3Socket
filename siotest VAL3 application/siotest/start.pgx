@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<programList xmlns="ProgramNameSpace" >
+  <program name="start" public="false" >
+    <description />
+    <paramSection/>
+    <localSection/>
+    <source>
+      <code>begin
+  call CVScontrol()
+  call initpara()
+  taskCreate "rev",11,datarev()
+  //taskCreate "send",100,datasend()
+end
+
+      </code>
+    </source>
+  </program>
+</programList>

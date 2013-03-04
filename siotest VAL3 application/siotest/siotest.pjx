@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<project xmlns="ProjectNameSpace" >
+  <parameters version="~VAL3:s5.4" stackSize="5000" millimeterUnit="true" />
+  <programSection>
+    <program file="CVScontrol.pgx" />
+    <program file="commadeal.pgx" />
+    <program file="datarev.pgx" />
+    <program file="datasend.pgx" />
+    <program file="initpara.pgx" />
+    <program file="showpoint.pgx" />
+    <program file="start.pgx" />
+    <program file="stop.pgx" />
+  </programSection>
+  <dataSection>
+    <data file="siotest.dtx" />
+  </dataSection>
+  <aliasSection>
+    <alias name="io" interface="io" autoload="true" />
+  </aliasSection>
+</project>

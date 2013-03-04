@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<programList xmlns="ProgramNameSpace" >
+  <program name="datarev" public="false" >
+    <description />
+    <paramSection/>
+    <localSection/>
+    <source>
+      <code>begin
+  sioLink(sock,io:remote)
+  while true
+    nData=sioGet(sock,buffer)
+    sBuffer=chr(buffer)
+    if sBuffer=="("
+      b_datarev=true
+    endIf
+    if sBuffer==")"
+      b_datarev=false
+    endIf
+    if b_datarev==true
+      datarev=datarev+sBuffer
+    else
+      datarev1=datarev
+      sBuffer=""
+    endIf
+    strdatrev=datarev1+")"
+    call commadeal()
+  endWhile
+end
+
+      </code>
+    </source>
+  </program>
+</programList>

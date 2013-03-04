@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<programList xmlns="ProgramNameSpace" >
+  <program name="initpara" public="false" >
+    <description />
+    <paramSection/>
+    <localSection/>
+    <source>
+      <code>begin
+  buffer=0
+  datarev1=""
+  datarev=""
+  strdatrev=""
+end
+
+      </code>
+    </source>
+  </program>
+</programList>

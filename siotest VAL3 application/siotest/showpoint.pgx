@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<programList xmlns="ProgramNameSpace" >
+  <program name="showpoint" public="false" >
+    <description />
+    <paramSection/>
+    <localSection/>
+    <source>
+      <code>begin
+  tShow=pSafe.trsf
+  nData[0]=tShow.x
+  nData[1]=tShow.y
+  nData[2]=tShow.z
+  nData[3]=tShow.rx
+  nData[4]=tShow.ry
+  nData[5]=tShow.rz
+  putln("x:"+toString(".3",tShow.x))
+  putln("y:"+toString(".3",tShow.y))
+  putln("z:"+toString(".3",tShow.z))
+  putln("rx:"+toString(".3",tShow.rx))
+  putln("ry:"+toString(".3",tShow.ry))
+  putln("rz:"+toString(".3",tShow.rz))
+  putln("Joint1:"+toString(".3",jReady.j1))
+end
+
+      </code>
+    </source>
+  </program>
+</programList>

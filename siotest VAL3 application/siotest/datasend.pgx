@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<programList xmlns="ProgramNameSpace" >
+  <program name="datasend" public="false" >
+    <description />
+    <paramSection/>
+    <localSection/>
+    <source>
+      <code>begin
+  while true
+    nOutput=len(sSending)
+    for j=0 to nOutput-1
+      nSendbf[j]=asc(sSending,j)
+    endFor
+    for j=nOutput to 39
+      nSendbf[j]=0
+    endFor
+    nSend=sioSet(io:remote,nSendbf)
+  endWhile
+end
+
+      </code>
+    </source>
+  </program>
+</programList>

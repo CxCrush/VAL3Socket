@@ -1,7 +1,7 @@
 //-----------------------------
 //Name: Staubli socket
 //Comp: Dev-C++ 4.9.9.2
-//Ahthor: Qian Yong
+//Ahthor: QIAN Yong
 
 #include <cstdlib>
 #include <iostream>

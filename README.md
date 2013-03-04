@@ -15,9 +15,7 @@ Usage
 
 1. Copy the folder named siotest in the folder siotest VAL3 application to VAL3 SRS cell, normally the folder is `C:\Documents and Settings\Your username \MyDocuments\Staubli\CS8\your Cell name\usr\usrapp`.
 
-2. Create a socket connection in CS8 emulator. 
-
-`PS:In the Demo application, Port 2000 is used to connect CS8C and C++ application`
+2. Create a socket connection in CS8 emulator. `PS:In the Demo application, Port 2000 is used to connect CS8C and C++ application`
 
 3. Run siotest in Cs8 emulator
 

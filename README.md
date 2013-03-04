@@ -7,7 +7,8 @@ Staubli Val3 Socket communication with C++
 Files
 =========
 
-1. siotest VAL3 application -------Val3 application to send and receive data via ethernet.`If you also know some python, please check [https://github.com/brucebot/TWITTERBOT](https://github.com/brucebot/TWITTERBOT) to use robot controller to send a twitter.`
+1. siotest VAL3 application -------Val3 application to send and receive data via ethernet.
+If you also know some python, Check [https://github.com/brucebot/TWITTERBOT](https://github.com/brucebot/TWITTERBOT) and use robot controller to send a tweet.
 
 2. staubli socket CPP -----------C++ application and source to send and receive data Robot
 
